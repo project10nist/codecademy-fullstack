@@ -1,0 +1,116 @@
+h1 {
+  font-family: sans-serif;  
+  font-size: 36px;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  text-decoration: underline;
+  text-decoration-color: lightgray;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-size: 28px;
+  text-align: center;
+  background-color: #F0F0F0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+p, li {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+section {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: 2px solid lightgray;
+  padding: 20px 20px;
+}
+
+.color {
+  text-align: center;
+  display: inline-block;
+  margin: 0 auto;
+  width: 20%;
+  padding: 20px;
+}
+
+.pure-black {
+  color: white;
+  background-color: #000000;
+}
+
+.lighter-black {
+  color: white;
+  background-color: #181818;
+}
+
+.red {
+  background-color:#B93930;
+}
+
+.yellow {
+  background-color: #ECEA73;
+}
+
+.fonts {
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.font-spacemono {
+  font-family: "Space Mono";
+}
+
+.font-segoeui {
+  font-family: "Segoe UI"
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.example-h1 {
+  font-family: "Space Mono", monospace;
+  font-size: 50px;
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+}
+
+.example-h2 {
+    font-family: "Space Mono", monospace;
+    font-size: 25px;
+    text-decoration: underline;
+    padding: 20px 0;
+    color: #BD382F;
+}
+
+.example-p {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+footer {
+  font-family: Consolas, monospace;
+  text-align: center;
+  color: black;
+  background-color: #E7E9EB;
+  margin-top: 70px;
+  padding: 0.3px;
+}
+
+footer a {
+  font-family: Consolas, monospace;
+  color: black;
+  text-decoration: none;
+}
+
+footer a:hover {
+  font-family: Consolas, monospace;
+  font-weight: bold;
+}
